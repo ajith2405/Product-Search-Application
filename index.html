@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ajith Wholesale Dealers - Product Search</title>
+	<link rel="stylesheet" href="webpage.css">
+</head>
+<body style="background-color: #b4dece7a;">
+	<center><h1>Ajith Wholesale Dealers</h1></center>
+	<center><h2>Product Search</h2></center>
+
+	<div class="Dealers">
+		<form name="myweb" id="for_reset" onsubmit="return main_execution()" action="backend.php" method="post">    
+			<div class="substring">
+				<p>
+					<label>Product Name (substring)</label><br>
+					<input type="text" name="product_name" id="product_name">
+				</p>
+				<p>
+					<label>Warehouse City (substring)</label><br>
+					<input type="text" name="warehouse_city" id="warehouse_city">
+				</p>
+			</div>
+
+			<div class="Values">
+				<p class="My_web">
+					<label>Minimum Quantity</label> 
+					<input type="number" step="0.01" name="min_quantity" id="min_quantity" >
+				</p>
+				<p class="My_web">
+					<label>Maximum Quantity</label>
+					<input type="number" step="0.01" name="max_quantity" id="max_quantity" >
+				</p>
+			</div>
+
+			<div class="Values">
+				<p class="My_web">
+					<label>Minimum Price</label>
+					<input type="number" step="0.01" name="min_price" id="min_price" >
+				</p>
+				<p class="My_web">
+					<label>Maximum Price</label>
+					<input type="number" step="0.01" name="max_price" id="max_price" >
+				</p>
+			</div>
+
+			<button type="reset">Clear Form</button>
+			<button type="submit" class="but" onsubmit="main_execution()">Search Product</button>
+		</form>
+	</div>
+
+</body>
+</html>

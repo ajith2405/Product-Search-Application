@@ -1,0 +1,63 @@
+/* Set color of h1 and h2 tags to skyblue */
+h1, h2 {
+  color: #252222;
+}
+
+/* Style the form */
+form {
+  background-color: white;
+  width: 450px;
+  padding: 5px;
+}
+
+/* Use CSS grid to display dealer information */
+.Dealers {
+  /*display: grid;*/
+  margin: 0;
+   padding: 5px 10px;
+   padding-left: 371px;
+}
+
+/* Use flexbox to display web information */
+.Values {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Add padding to input fields inside web class */
+.Values input {
+  /*padding: 4px 26px;*/
+  width:90%;
+}
+
+/* Style the search button */
+form button {
+  padding: 10px 69px;
+  color: white;
+  background-color: gray;
+  margin:center;
+
+}
+
+/* Style the "Perform Another Search" button */
+.but {
+  background-color: skyblue;
+}
+
+/* Add padding to input fields inside substring class */
+.substring input {
+  /*padding: 4px 139px;*/
+  width:95%;
+}
+
+/* Add hover effect to buttons */
+button:hover {
+  background: skyblue;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Display button text in a block */
+button span {
+  display: block;
+}
